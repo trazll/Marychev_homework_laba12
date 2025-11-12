@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
             clickCount++;
             lblClicks.Text = $"Кликов: {clickCount}";
 
-            // Запускаем таймер при первом клике
+
             if (!isTimerRunning)
             {
                 timer1.Start();
